@@ -1,0 +1,30 @@
+#content {
+  /* margin-top: 5%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+h1,
+q {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+q {
+  font-size: 24px;
+}
+
+img {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+}
