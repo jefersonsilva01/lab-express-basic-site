@@ -1,0 +1,21 @@
+#container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 15%;
+}
+
+img {
+  height: 230px;
+  width: 150px;
+  scale: 1;
+  transition: scale 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  box-shadow: none;
+}
+
+img:hover {
+  cursor: pointer;
+  scale: 1.5;
+  box-shadow: 5px 5px 15px 5px black;
+}
